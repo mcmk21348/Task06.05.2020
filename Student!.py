@@ -1,5 +1,5 @@
 class Student:
-    def init(self, name, year, major):
+    def __init__(self, name, year, major):
         self.name = name
         self.major = major
         self.year = year
